@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EEEP Eusébio de Queiroz</title>
+    <style>
+      body {
+        background-color: rgb(46, 43, 43);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h2 {
+        color: aliceblue;
+       }
+       div {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+       .box {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 7px;
+        padding: 40px;
+        box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+        gap: 5px
+       }
+       .box h2 {
+        padding: 0;
+        margin: 0;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: #ba1d0a;
+       }
+
+       .box input {
+        padding: 15px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        margin-top: 5px;
+        border-radius: 4px;
+        transition: all linear 160ms;
+        outline: none;
+       }
+       .box input:focus {
+        border: 1px solid #ba1d0a;
+       }
+       .box a {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 17px;
+        color: #ba1d0a;
+        transition: all linear 160ms;
+       }
+       .box a:hover {
+        color: #000000
+       }
+      .enviar {
+        background-color: #ba1d0a;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        border: none !important;
+        transition: all linear 160ms;
+        cursor: pointer;
+        margin: 0 !important;
+      }
+      .enviar:hover {
+        color:#000000
+      }
+    </style>
+</head>
+<body>
+<div class="teladelogin">
+  <img src="https://abrir.link/UNpeO" alt="IN - Infinity School">
+  <form class="box">  
+    <h2>Login</h2>
+    <input type="email" placeholder="Digite seu e-mail" id="email" name="email">
+
+    <input type="Senha" placeholder="E aqui sua senha" id="password" name="password">
+
+    <input type="button" value="Entrar" class="enviar">
+
+    <a href="#" target="_blank">Esqueceu sua senha?</a>
+  </form>
+</div>
+</body>
+</html>
